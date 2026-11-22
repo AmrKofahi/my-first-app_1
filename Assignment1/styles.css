@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #F4F7F8;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workshop-card {
+    width: 303px;
+    padding: 10px 17px 14px;
+
+    background-color: #FFFFFF;
+    border: 1.5px solid #12546C;
+    border-radius: 9px;
+
+    box-shadow: 0 4px 12px rgba(18, 84, 108, 0.15);
+
+    text-align: right;
+}
+
+.badge {
+    display: inline-block;
+
+    background-color: #E5F7E8;
+    color: #237A36;
+
+    padding: 4px 10px;
+    border-radius: 12px;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    margin-bottom: 6px;
+}
+
+h1 {
+    color: #12546C;
+    font-size: 20px;
+
+    margin: 0 0 8px;
+}
+
+.description {
+    color: #5F6F78;
+    font-size: 13px;
+
+    margin: 0 0 12px;
+}
+
+.buttons {
+    margin-bottom: 9px;
+}
+
+.btn {
+    display: inline-block;
+
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #12546C;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.primary {
+    background-color: #12546C;
+    color: #FFFFFF;
+
+    margin-left: 6px;
+}
+
+.secondary {
+    background-color: #FFFFFF;
+    color: #12546C;
+}
+
+.note {
+    color: #5F6F78;
+    font-size: 12px;
+
+    margin: 0;
+}
